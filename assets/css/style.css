@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.accordion {
+  cursor: pointer;
+  padding: 10px 10px;
+  margin-top: 20px;
+  width: 100%;
+  text-align: left;
+  -webkit-transition: 4s;
+  transition: 4s;
+}
+
+.accordion h2 {
+  color: blue;
+  font-size: 30px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid red;
+}
+
+.panel {
+  padding: 0 18px;
+  font-size: 25px;
+  line-height: 40px;
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: max-height 1s ease-in-out;
+  transition: max-height 1s ease-in-out;
+  color: green;
+}
